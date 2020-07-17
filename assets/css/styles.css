@@ -49,6 +49,16 @@
 ::after {
 	box-sizing: border-box;
 }
+.animation_background {
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.top {
+	z-index: 1;
+}
 html {
 	scroll-behavior: smooth;
 }
