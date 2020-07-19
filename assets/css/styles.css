@@ -216,6 +216,7 @@ img {
 	flex-direction: column;
 }
 .home__social-icon {
+	display: none;
 	width: max-content;
 	margin-bottom: var(--mb-2);
 	font-size: 1.5rem;
@@ -405,6 +406,7 @@ img {
 		align-self: flex-end;
 	}
 	.home__social-icon {
+		display: block;
 		margin-bottom: 0;
 		margin-right: var(--mb-4);
 	}
